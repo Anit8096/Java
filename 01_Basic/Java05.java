@@ -5,9 +5,11 @@ public class Java05 {
     }
 
     public static void main(String[] args) {
-        // Arithmetic expressions
+        
         int a = 10;
         int b = 5;
+
+        // Arithmetic expressions
         int sum = a + b;
         int difference = a - b;
         int product = a * b;
@@ -50,8 +52,8 @@ public class Java05 {
         System.out.println("Is Greater Than: " + isGreaterThan);
         System.out.println("AND Result: " + andResult);
         System.out.println("OR Result: " + orResult);
-        System.out.println("Max: " + max);
         System.out.println("Result from method call: " + result);
+        System.out.println("Max: " + max);
         System.out.println("Is String: " + isString);
         System.out.println("First number in array: " + firstNumber);
         System.out.println("Increment (+=): " + x);
