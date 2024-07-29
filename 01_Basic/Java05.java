@@ -42,6 +42,14 @@ public class Java05 {
         int[] numbers = {1, 2, 3, 4, 5};
         int firstNumber = numbers[0];
 
+        //Left Shift Operator
+        System.out.print("Left Shift Operator: "); 
+        System.out.println(15<<4);                 // 15*(2^4) = 15*16 = 240
+
+        //Right Shift Operator
+        System.out.print("Right Shift Operator: ");
+        System.out.println(20>>3);                 // 20/(2^3) = 20/8 = 2  
+
         // Print results
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);
