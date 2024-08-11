@@ -14,5 +14,7 @@ public class Java09 {
         } else {
             System.out.println("you are young.");
         }
+
+        Inpt.close();
     }
 }
