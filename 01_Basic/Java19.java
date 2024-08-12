@@ -2,6 +2,14 @@ import java.util.ArrayList;
 
 public class Java19 {
     public static void main(String[] args) {
+
+        /*
+         * ArrayList is a resizable array. In an arraylist elements 
+         * can be added or removed after compilation phase.
+         * 
+         * Stores reference data types
+         */
+
         // Declare and initialize the ArrayList
         ArrayList<String> food = new ArrayList<>();
 
