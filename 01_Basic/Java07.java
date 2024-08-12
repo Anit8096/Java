@@ -1,5 +1,6 @@
 public class Java07 {
     public static void main(String[] args) {
+        //Demonstartion of some useful Math.class methods
         double number1 = -4.7;
         double number2 = 2.5;
         int intNumber = -5;
