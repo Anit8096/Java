@@ -16,7 +16,8 @@ class Car {
     String color; 
     Double Price;
 
-    Car(String MAKE, String MODEL, int YEAR, String COLOR, Double PRICE) {
+    // Constructor
+    Car(String MAKE, String MODEL, int YEAR, String COLOR, Double PRICE) {  
         Make = MAKE;
         Model = MODEL;
         Year = YEAR;
