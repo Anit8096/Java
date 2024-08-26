@@ -43,7 +43,7 @@ public class Java29 {
          * global variable = declared outside a method, but within a class
          * visible to all parts of the class
          */
-        Dice1 d1 = new Dice1();
-        Dice2 D2 = new Dice2();
+        // Dice1 d1 = new Dice1();
+        // Dice2 D2 = new Dice2();
     }
 }
