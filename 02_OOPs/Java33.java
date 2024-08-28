@@ -1,6 +1,6 @@
 public class Java33 {
     public static void main(String[] args) {
-        // ststic = keyword modifier. a single copy of variable/method is created and is shared b/w all instances 
+        // static = keyword modifier. a single copy of variable/method is created and is shared b/w all instances 
         // of the class. The class "owns" that static method/variable
 
         /* Comment out the following 3 lines */
@@ -8,6 +8,7 @@ public class Java33 {
         // Friend F2 = new Friend("Anav");
         // Friend F3 = new Friend("Arpit Bansal");
         System.out.println("Number of friends I have: " + Friend.Number_of_friends);
+        Friend.DisplayFriends();
     }
 }
 
