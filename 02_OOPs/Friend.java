@@ -8,7 +8,7 @@ public class Friend {
         Number_of_friends++;
     }
 
-    static void DisplayFriends() {
+    static void DisplayFriends() {  // static Method
         System.out.println("Number of friends I have: " + Number_of_friends);
     }
 }
