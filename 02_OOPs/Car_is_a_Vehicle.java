@@ -4,4 +4,9 @@ public class Car_is_a_Vehicle extends Cars {
     int Doors = 2;
     String MaxSpeed = "360 Km/h";
     String Engin = "Naturally Aspirated 6.5L V12 Engin";
+
+    @Override
+    void info() {
+        System.out.println(Model + Engin);
+    }
 }
